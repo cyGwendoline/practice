@@ -1,0 +1,262 @@
+/* banner */
+.index_banner {
+    position: relative;
+    background: #b3b3b3;
+}
+
+.index-banner-bg {
+    height: 570px;
+    overflow: hidden;
+}
+
+.index-banner-bg img {
+    margin: 0 auto;
+}
+
+.index-banner-text {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -388px;
+}
+
+.index-banner-text .text_logo {
+    width: 776px;
+    height: 117px;
+    background: url("../images/index_banner_text_logo.png") no-repeat;
+}
+
+.index-banner-text .text_info {
+    margin-top: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.index-banner-text .text_info .line {
+    display: inline-block;
+    width: 40px;
+    border-top: 1px solid #fff;
+    vertical-align: middle;
+    *margin-top: 22px;
+}
+
+/*.index_banner_text .text_info .line_l {
+    margin-right: 26px;
+}
+
+.index_banner_text .text_info .line_r {
+    margin-left: 26px;
+}*/
+/*与上面注释部分效果相同*/
+.index-banner-text .text_info .txt {
+    margin: 0 26px;
+    color: #fff;
+}
+
+/* manu */
+.index_menu {
+    position: relative;
+    border-top: 4px solid #f34949;
+}
+
+.index_menu .manu_tips {
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -78px;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    background: #f34949;
+}
+
+.index_menu .manu_tips:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left:78px solid transparent;
+    border-right:78px solid transparent;
+    border-bottom:10px solid #fff;
+}
+
+.index_menu .manu_list {
+    margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+
+.index_menu .manu_list ul {
+    width: 1160px;
+}
+
+.index_menu .menu_item {
+    float: left;
+    width: 520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+
+.index_menu .menu_item .title, .index_menu .menu_item .line {
+    float: left;
+}
+
+.index_menu .menu_item .price {
+    float: right;
+}
+
+.index_menu .menu_item .title {
+    width: 230px;
+    color: #555;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index_menu .menu_item .title a {
+    color: #555555;
+}
+
+.index_menu .menu_item .comment {
+    margin-top: 4px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+
+.index_menu .menu_item .line {
+    margin-top: 10px;
+    width: 192px;
+    border-top: 1px solid #e3e1e1;
+}
+
+.index_menu .menu_more_btn {
+    margin: 0 auto;
+    width: 114px;
+    height: 32px;
+    padding-left: 16px;
+    border: 1px solid #d7d5d5;
+    font-size: 14px;
+    line-height: 32px;
+    color: #b7b7b7;
+}
+
+.index_menu .menu_more_btn .icon {
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    margin-left: 10px;
+    background: url("../images/index_btn_icon.gif") no-repeat;
+}
+
+/*panel*/
+.index_panel {
+    margin-top: 200px;
+}
+
+.index_panel_header h3 {
+    float: left;
+    margin-right: 48px;
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: normal;
+
+}
+
+.index_panel_header .line {
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.index_panel_header .btn_group {
+    font-size: 0;
+    float: right;
+}
+
+.index_panel_header .btn {
+    display: inline-block;
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: #dedede;
+    border-radius:50%;
+}
+
+.index_panel_header .active {
+    background: #9b9b9b;
+}
+
+.index_panel_body {
+    margin-top: 75px;
+}
+
+.index_food_list {
+    overflow: hidden;
+}
+
+.index_food_list ul {
+    width: 1160px;
+}
+
+.index_food_list .food-item {
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+}
+
+.index_food_list .food-item .banner {
+    margin-bottom: 30px;
+    height: 202px;
+}
+
+.index_food_list .food-item .name {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.index_food_list .food-item .price {
+    float: right;
+}
+
+.index_food_list .food-item .star_bar {
+    font-size: 0;
+}
+
+.index_food_list .food-item .star {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    background-image: url("../images/index_star.png");
+    background-repeat: no-repeat;
+}
+.index_food_list .food-item .nostar {
+    background-position: 0 -12px;
+}
+
+.index-pics {
+    height: 380px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.index-pics .pic-col {
+    float: left;
+}
+
+.index-pics .pic-col-m {
+    width: 353px;
+}
+
+.index-pics .pic-col-s {
+    width: 287px;
+}
+
+.index-pics .pic-col-l {
+    width: 460px;
+}
